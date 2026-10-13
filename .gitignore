@@ -1,0 +1,9 @@
+# Caches Python et OS
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+# Fichiers de données
+# train.csv
+# test.csv
+# *.csv
