@@ -4,17 +4,22 @@ Bienvenue sur le dépôt de mon projet de Machine Learning réalisé pour la com
 
 ---
 
-## 🏆 Performances & Résultats
+### 🏆 Performances & Résultats
 
-Ce pipeline rigoureux m'a permis d'atteindre le **Top 6.5%** du classement mondial (Leaderboard Public) :
+Ce pipeline rigoureux m'a permis d'atteindre le **Top 6.5%** du classement mondial (Leaderboard Public).
 
-* **Score Leaderboard (Public)** : `0.81014`
-* **Score Local OOF (Accuracy)** : `0.81100`
-* **AUC Local** : `0.90582`
+| Modèle | Score OOF (Accuracy) | Poids dans le Blend |
+| :--- | :---: | :---: |
+| **LightGBM** | ~0.8080 | 41.87 % |
+| **XGBoost** | ~0.8050 | 30.20 % |
+| **CatBoost** | ~0.8060 | 27.93 % |
+| **Ensemble (Blend final)** | **0.81077** | **Seuil : 0.52** |
+
+> 📌 **Score Leaderboard Public :** `0.81014` *(Alignement quasi-parfait avec la validation locale OOF : 0.81077, confirmant l'absence de fuite de données).*
 
 ---
 
-## 🛠️ Architecture du Pipeline & Étapes clés
+### 🛠️ Architecture du Pipeline & Étapes clés
 
 Le projet repose sur un pipeline de données modulaire et robuste :
 
@@ -31,7 +36,7 @@ Le projet repose sur un pipeline de données modulaire et robuste :
 
 ---
 
-## 🗂️ Structure du Dépôt
+### 🗂️ Structure du Dépôt
 
     ├── Spaceship_Titanic.ipynb # Notebook principal du pipeline end-to-end
     ├── requirements.txt        # Dépendances du projet
@@ -39,7 +44,7 @@ Le projet repose sur un pipeline de données modulaire et robuste :
 
 ---
 
-## ⚙️ Stack Technique
+### ⚙️ Stack Technique
 
 * **Langage** : Python 3.x
 * **Manipulation & Calcul** : Pandas, NumPy
@@ -48,7 +53,7 @@ Le projet repose sur un pipeline de données modulaire et robuste :
 
 ---
 
-## 🚀 Installation & Utilisation
+### 🚀 Installation & Utilisation
 
 # Cloner le dépôt
 ```
