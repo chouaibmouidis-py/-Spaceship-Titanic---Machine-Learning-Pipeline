@@ -51,16 +51,19 @@ Le projet repose sur un pipeline de données modulaire et robuste :
 ## 🚀 Installation & Utilisation
 
 # Cloner le dépôt
-`git clone https://github.com/chouaibmouidis-py/-Spaceship-Titanic---Machine-Learning-Pipeline.git`
+```
+git clone https://github.com/chouaibmouidis-py/-Spaceship-Titanic---Machine-Learning-Pipeline.git
 
 # Se déplacer dans le dossier
-`cd -Spaceship-Titanic---Machine-Learning-Pipeline`
+cd -Spaceship-Titanic---Machine-Learning-Pipeline
 
 # Installer les dépendances
-`pip install -r requirements.txt`
+pip install -r requirements.txt
 
 # Lancer le notebook
-`jupyter notebook Spaceship_Titanic.ipynb`
+jupyter notebook Spaceship_Titanic.ipynb
+```
+
 
 📫 Contact & Liens
 - LinkedIn : [MOUID / Chouaib](https://www.linkedin.com/in/chouaib-mouid-200893438/)
