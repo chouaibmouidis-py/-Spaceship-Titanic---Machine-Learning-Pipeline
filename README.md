@@ -33,9 +33,6 @@ Le projet repose sur un pipeline de données modulaire et robuste :
 
 ## 🗂️ Structure du Dépôt
 
-    ├── train.csv               # Données d'entraînement
-    ├── test.csv                # Données de test
-    ├── sample_submission.csv   # Format de soumission requis
     ├── Spaceship_Titanic.ipynb # Notebook principal du pipeline end-to-end
     ├── requirements.txt        # Dépendances du projet
     └── .gitignore              # Fichiers ignorés par Git
@@ -53,12 +50,18 @@ Le projet repose sur un pipeline de données modulaire et robuste :
 
 ## 🚀 Installation & Utilisation
 
-Clone le dépôt sur ta machine :
-    `git clone [https://github.com/chouaibmouidis-py/-Spaceship-Titanic---Machine-Learning-Pipeline.git](https://github.com/chouaibmouidis-py/-Spaceship-Titanic---Machine-Learning-Pipeline.git)`
-    `cd -Spaceship-Titanic---Machine-Learning-Pipeline`
+# Cloner le dépôt
+`git clone https://github.com/chouaibmouidis-py/-Spaceship-Titanic---Machine-Learning-Pipeline.git`
 
-Installe les dépendances requises :
-    `pip install -r requirements.txt`
+# Se déplacer dans le dossier
+`cd -Spaceship-Titanic---Machine-Learning-Pipeline`
 
-Ouvre le notebook Jupyter pour lancer le pipeline :
-    jupyter notebook Spaceship_Titanic.ipynb
+# Installer les dépendances
+`pip install -r requirements.txt`
+
+# Lancer le notebook
+`jupyter notebook Spaceship_Titanic.ipynb`
+
+📫 Contact & Liens
+- LinkedIn : [MOUID / Chouaib](https://www.linkedin.com/in/chouaib-mouid-200893438/)
+- Profil Kaggle : [chouaibmouid](https://www.kaggle.com/chouaibmouid)
